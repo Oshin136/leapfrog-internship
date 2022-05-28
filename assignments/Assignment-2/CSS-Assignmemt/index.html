@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="container">
+            <ul class="nav-left">
+                <li class="logo"><a href="#">UI Kit</a></li>
+                <li><a href="#main-color">Color</a></li>
+                <li><a href="#">Typography</a></li>
+                <li><a href="#">Buttons</a></li>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">List Group</a></li>
+                <li><a href="#">Table</a></li>
+                <li><a href="#">Card</a></li>
+                
+            </ul>
+            <ul class="nav-right">
+                
+                <li><button>Search</button></li>
+                <li><input type="text" placeholder="Search"></li>
+            </ul>
+        </div>
+            
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1 id="main-color">Color</h1>
+        <hr/>
+        <div class="colors">
+            <h2>Primary Color</h2>
+            
+                <div class="box">
+                    <div class="color primary"></div>
+                    <div class="color-title">Primary</div>
+                    <div class="color-code">#7749F8</div>
+                </div>
+                <div class="box">
+                    <div class="color primary-dark"></div>
+                    <div class="color-title">Primary Dark</div>
+                    <div class="color-code">#5227CC</div>
+                </div>
+                <div class="box">
+                    <div class="color primary-light"></div>
+                    <div class="color-title">Primary Light</div>
+                    <div class="color-code">#EBE5FC</div>
+                </div>
+            
+        </div>
+        <div class="colors">
+            <h2>Secondary Color</h2>
+            <div class="box">
+                <div class="color secondary"></div>
+                <div class="color-title">Secondary</div>
+                <div class="color-code">#696969</div>
+            </div>
+            <div class="box">
+                <div class="color secondary-dark"></div>
+                <div class="color-title">Secondary Dark</div>
+                <div class="color-code">#54595E</div>
+            </div>
+            <div class="box">
+                <div class="color secondary-light"></div>
+                <div class="color-title">Secondary Light</div>
+                <div class="color-code">#ABB5BE</div>
+            </div>
+        </div>
+        <div class="colors">
+            <h2>Status Color</h2>
+            <div class="box">
+                <div class="color success"></div>
+                <div class="color-title">Success</div>
+                <div class="color-code">#28A745</div>
+            </div>
+            <div class="box">
+                <div class="color danger"></div>
+                <div class="color-title">Danger</div>
+                <div class="color-code">#DC3545</div>
+            </div>
+            <div class="box">
+                <div class="color warning"></div>
+                <div class="color-title">Warning</div>
+                <div class="color-code">#FFC107</div>
+            </div>
+            <div class="box">
+                <div class="color info"></div>
+                <div class="color-title">Info</div>
+                <div class="color-code">#17A2B8</div>
+            </div>
+        </div>
+        <div class="colors">
+            <h2>Gray Color</h2>
+            <div class="box">
+                <div class="color gray-600"></div>
+                <div class="color-title">Gray-600</div>
+                <div class="color-code">#6c757d</div>
+            </div>
+            <div class="box">
+                <div class="color gray-700"></div>
+                <div class="color-title">Gray-700</div>
+                <div class="color-code">#495057</div>
+            </div>
+            <div class="box">
+                <div class="color gray-800"></div>
+                <div class="color-title">Gray-800</div>
+                <div class="color-code">#343a40</div>
+            </div>
+            <div class="box">
+                <div class="color gray-900"></div>
+                <div class="color-title">Gray-900</div>
+                <div class="color-code">#212529</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Typography</h1>
+        <hr/>
+        <div class="typography">
+            <div class="body-text">
+                <h2>Body Text</h2>
+                
+                <p>In ultricies fermentum aliquet. Pellentesque dui magna,
+                    condimentum non ullamcorper at, cursus in sem. Nunc
+                    condimentum, purus ac sagittis ultricies, metus leo pharetra
+                    mi, non vehicula felis elit et nisi. Etiam venenatis commodo
+                    libero, vel ullamcorper nibh lobortis vel. Aliquam auctor porta
+                    tortor, nec consequat nibh finibus a. Sed ultrices risus eget
+                    iaculis luctus. Mauris vel gravida magna.</p>
+                
+            </div>
+            <div class="inline-text">
+                <h2>Inline text elements</h2>
+                <div class="text-elements">
+                    <p >You can use the mark tag to highlight text.</p>
+                    <p class="line-through">This line of text is meant to be treated as deleted text.</p>
+                    <p class="line-through">This Line of text is meant to be treated as no longer accurate.</p>
+                    <p class="underline">This line of text is meant to be treated as an addition to the document.</p>
+                    <p class="underline">This line of text will render as underlined</p>
+                    <p>This line of text is meant to be treated as fine print.</p>
+                    <b><p class="underline">This line rendered as bold text.</p></b>
+                    <i><p>This line rendered as italicized text.</p></i>
+                </div>
+            </div>
+        </div>
+        <div class="lead-text">
+           <h2>Lead Text</h2> 
+           <p>In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non ullamcorper at, cursus in sem. Nunc
+            condimentum, purus ac enenatis commodo libero, am auctor porta tortor, nec consequat nibh finibus a. Sed
+            ultrices risus eget iaculis luctus. Mauris vel gravida magna.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1>Tabs</h1>
+        <hr/>
+        <div class="tabs">
+            <button class="nav-item home">Home</button>
+            <button class="nav-item profile">Profile</button>
+            <button class="nav-item contact">Contact</button>
+            <p class="tab-content">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu
+            stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams
+            burg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamc atcher
+            synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
+            placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+            butcher voluptate nisi qui.</p>
+        </div>
+    </section>
+
+    <section class="comtainer">
+        <h1>Buttons</h1>
+        <hr/>
+        <div class="buttons">
+            <h2>Primary</h2>
+            <hr/>
+            <table class="btn-class">
+                <tr>
+                    <th></th>
+                    <th>default</th>
+                    <th>outline</th>
+                </tr>
+                <tr>
+                    <td>default</td>
+                    <td><button class="btn primary">Primary</button></td>
+                    <td><button class="btn outline-pri">Outline</button></td>
+                </tr>
+                <tr>
+                    <td>hover</td>
+                    <td><button class="btn primary-dark">Primary</button></td>
+                    <td><button class="btn primary ">Outline</button></td>
+                </tr>
+                <tr>
+                    <td>focus</td>
+                    <td><button class="btn primary-dark">Primary</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="buttons">
+            <h2>Secondary button</h2>
+            <hr/>
+            <table class="btn-class">
+                <tr>
+                    <td>default</td>
+                    <td><button class="btn secondary">Secondary</button></td>
+                    <td><button class="btn outline-sec">Outline</button></td>
+                </tr>
+                <tr>
+                    <td>hover</td>
+                    <td><button class="btn secondary-dark">Secondary</button></td>
+                    <td><button  class="btn secondary">Outline</button></td>
+                </tr>
+
+                <tr>
+                    <td>focus</td>
+                    <td><button class="btn secondary-dark">Secondary</button></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h1>Forms</h1>
+        <hr/>
+        <div class="form">
+            <div class="form-left">
+                <h2>Components</h2>
+                <ul>
+                    <li>Color</li>
+                    <li>Typography</li>
+                    <li>Buttons</li>
+                    <li class="select-form">Forms</li>
+                    <li>List Group</li>
+                    <li>Table</li>
+                    <li>card</li>
+                </ul>
+            </div>
+            <div class="form-right">
+
+                <div class="form-right-el">
+                    <h2>Input</h2>
+                    <input class="first-input" type="text" placeholder="Placeholder">
+                    
+                </div>
+
+                <div class="form-right-el">
+                    <h2>Select Menu</h2>
+                    <select>
+                        <option>Select Menu</option>
+                        <option>First option</option>
+                    </select>
+                </div>
+
+                <div class="form-right-el">
+                    <h2>Textarea</h2>
+                    <textarea placeholder="Write your message here"></textarea>
+                </div>
+                <div class="form-right-el test">
+                    <h2>Checkboxes</h2>
+                        <div class="item-column">
+                            <h3>Checkboxes</h3>
+                            <div>
+                                <input type="checkbox">
+                                <label>Default checkbox</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" checked>
+                                <label>Default checkbox</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" disabled>
+                                <label>Default(disabled)</label>
+                            </div>
+                            
+                        </div>
+                    
+                    <div class="item-inline">
+                        <h3>Checkboxes Inline</h3>
+                        <div >
+                            <input type="checkbox" >
+                            <label>Default Checkbox</label>
+                        </div>
+                        <div >
+                            <input type="checkbox" checked>
+                            <label>Default Checkbox</label>
+                        </div>
+                        <div >
+                            <input type="checkbox" disabled>
+                            <label>Default(disabled)</label>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="form-right-el test">
+                    <h2>Radios</h2>
+
+                    <div class="item-column">
+                        <h3>Radios</h3>
+                        <div>
+                            <input type="radio">
+                            <label>Default Radio</label>
+                        </div>
+                        <div>
+                            <input type="radio" checked>
+                            <label>Selected Radio</label>
+                        </div>
+                        <div>
+                            <input type="radio" disabled>
+                            <label>Disabled radio</label>
+                        </div>
+                    </div>
+
+                    <div class="item-inline">
+                        <h3>Radios Inline</h3>
+                       
+                        <div> 
+                            <input type="radio">
+                            <label>Default Radio</label>
+                            
+                        </div>
+                        <div>
+                            <input type="radio" checked>
+                            <label>Selected Radio</label>
+                        </div>
+                        <div>
+                            <input type="radio" disabled>
+                            <label>Disabled radio</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-right-el">
+                    <h2>Validation</h2>
+
+                    <div class="validation input-success">
+                        <h3>Input Success</h3>
+                        <input/>
+                    </div>
+                    <div class="vaalidation input-error">
+                        <h3>Input Error</h3>
+                        <input/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1>List Group</h1>
+        <hr/>
+        <div class="list-group">
+            <div class="list-left">
+                <h2>
+                    Basic Example
+                </h2>
+                <ul>
+                    <li class="select-list">Cras justo odio</li>
+                    <li>Dapibus ac facilisis in</li>
+                    <li>Morbi leo risus</li>
+                    <li>Porta ac consectetur ac</li>
+                    <li>Vestibulum at eros</li>
+                </ul>
+            </div>
+
+            <div class="list-right">
+                <h2>Custom Content</h2>
+                <ul class="">
+                    <li class="select-list">
+                        <div class="list-right-heading">
+                            List group item heading
+                        </div>
+                        <span class="list-right-days">3 days ago</span>
+                        <p class="list-right-content">
+                            Donec id elit non mi porta gravida at egetmetus. Maecenas sed diam eget risus varius
+                                blandit.
+                        </p>
+                        <p class="list-right-footer">
+                            Donec id elit non mi porta.
+                        </p>
+                    </li>
+
+                    <li>
+                        <div class="list-right-heading">
+                            List group item heading
+                        </div>
+                        <span class="list-right-days">3 days ago</span>
+                        <p class="list-right-content">
+                            Donec id elit non mi porta gravida at egetmetus. Maecenas sed diam eget risus varius
+                                blandit.
+                        </p>
+                        <p class="list-right-footer">
+                            Donec id elit non mi porta.
+                        </p>
+                    </li>
+
+                    <li>
+                        <div class="list-right-heading">
+                            List group item heading
+                        </div>
+                        <span class="list-right-days">3 days ago</span>
+                        <p class="list-right-content">
+                            Donec id elit non mi porta gravida at egetmetus. Maecenas sed diam eget risus varius
+                                blandit.
+                        </p>
+                        <p class="list-right-footer">
+                            Donec id elit non mi porta.
+                        </p>
+                    </li>
+                </ul>
+                
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1>Table</h1>
+        <hr/>
+        <table class="tables">
+            <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </table>
+
+        <div class="page-indicator">
+            <span class="page-previous">Prev</span>
+            <span class="page-current">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>Next</span>
+        </div>
+
+
+    </section>
+
+    <section class="container">
+        <h1>Card</h1>
+        <hr/>
+        <div class=" card card-design1">
+            <div class="card-design1-heading">
+                <img class="card-profile" src="./images/profile.png" alt="profile">
+                <div>
+                    <strong>Stuar Manson</strong>
+                    <p>Publicado hace 2 horas</p>
+                </div>
+                <img  class="icon-triple-dot" src="./images/dots.png" alt="dots">
+            </div>
+            <img  class="card-image" src="./images/img1.avif" alt="first_image">
+            <div class="card-footer">
+                <div class="card-icons">
+                    <img src="./images/like.png" alt="like">
+                    <img src="./images/cmt.png" alt="comment">
+                    <img src="./images/share.png" alt="share">
+                </div>
+                <hr/>
+                <div class="card-subscribe">
+                    <img src="./images/profile.png" alt="profile">
+                    <input type="text" placeholder="Enter your comment">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card card-design2">
+            <img src="./images/img2.avif" alt="second-image">
+            <div class="card-footer">
+
+            </div>
+        </div>
+
+        <div class="card card-design3">
+            <div class="card-design3-heading">
+
+            </div>
+            <img src="./images/img3.avif" alt="third-image">
+            <div class="card-footer">
+
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
