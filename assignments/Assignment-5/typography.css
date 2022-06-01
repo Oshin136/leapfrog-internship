@@ -1,0 +1,38 @@
+.container__tab {
+  padding-left: 187px;
+  padding-right: 160px;
+}
+
+.tabs button {
+  border: 0;
+  padding: 10px;
+}
+
+.tabs .nav-item {
+  float: left;
+  border-left: 1px solid var(--color-secondary-light);
+  border-top: 1px solid var(--color-secondary-light);
+  background-color: white;
+}
+
+.tabs .nav-item.home {
+  margin-bottom: -1px;
+  border-bottom: 1px solid white;
+}
+
+.nav-item.contact {
+  border-right: 1px solid var(--color-secondary-light);
+  color: var(--color-primary);
+}
+
+.nav-item.profile {
+  color: var(--color-primary);
+}
+
+.tab-content {
+  width: 50%;
+  clear: left;
+  /* font-size: var(--medium); */
+  border-top: 1px solid var(--color-secondary-light);
+  padding-top: 20px;
+}

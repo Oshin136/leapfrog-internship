@@ -1,0 +1,152 @@
+.card {
+  width: 350px;
+  height: 464px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid var(--color-secondary-light);
+}
+
+.card-design1-heading {
+  width: 90%;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.card-design1-heading .card-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  vertical-align: middle;
+  /* margin-right: ; */
+}
+
+.card-design1-heading div {
+  float: left;
+}
+
+.card-design1-heading p {
+  color: var(--color-secondary-light);
+}
+
+.card-design1-heading .icon-triple-dot {
+  float: right;
+  width: 30px;
+  height: 30px;
+}
+
+.card-design1 .card-image1 {
+  width: 100%;
+  height: 250px;
+}
+
+.card-icons {
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+
+.card-footer .card-icons img {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.card-icons img:last-child {
+  float: right;
+}
+
+.card-icons img:first-child {
+  margin-right: 100px;
+}
+
+.card-footer hr {
+  margin: 10px 2px;
+  border-top: 1px solid var(--color-secondary-light);
+}
+
+.card-footer .card-subscribe {
+  width: 90%;
+  margin: auto;
+}
+
+.card-subscribe img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card-subscribe input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid var(--color-secondary-light);
+}
+
+.card-subscribe input::placeholder {
+  color: var(--color-secondary-light);
+}
+
+.card-image2 img {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.card-play {
+  position: absolute;
+  padding: 15px;
+  margin-left: 145px;
+  border-radius: 50px;
+  background-color: var(--color-primary-dark);
+  margin-top: -27px;
+}
+
+.card-footer .card-design2-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-image3 img {
+  width: 100%;
+  height: 270px;
+}
+
+.card-design3-heading button {
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: var(--color-primary-dark);
+  color: white;
+  border-style: none;
+  border-radius: 6px;
+}
+
+.card-design3-heading p {
+  margin: 5px;
+}
+
+.card-design3-heading p:last-child {
+  color: var(--color-secondary-light);
+}
+
+.card-design3-footer {
+  width: 90%;
+  margin: 10px 0 0 10px;
+  vertical-align: middle;
+}
+
+.card-design3-footer p {
+  display: inline;
+  margin-right: 20px;
+}
+
+.card-design3-footer .comment,
+.card-design3-footer .heart {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 7px;
+}

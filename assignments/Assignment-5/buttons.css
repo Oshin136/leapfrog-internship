@@ -1,0 +1,22 @@
+.btn-class {
+  margin: 20px;
+}
+
+.buttons table td {
+  padding: 20px;
+}
+
+.btn {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+.primary-dark {
+  background-color: var(--color-primary-dark);
+}
+.outline-pri {
+  color: var(--color-primary-dark);
+  border: 1px solid #5227cc;
+  background-color: white;
+}

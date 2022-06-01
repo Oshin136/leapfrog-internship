@@ -1,0 +1,46 @@
+.list-group {
+  overflow: hidden;
+  width: 100%;
+}
+
+.list-right {
+  float: left;
+  width: 30%;
+}
+
+.list-group ul {
+  border: 1px solid var(--color-secondary-light);
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-group li {
+  padding: 15px;
+  border-bottom: 1px solid var(--color-secondary-light);
+}
+
+.list-right .select-list {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.list-right-heading {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.list-right-days {
+  float: right;
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.list-right-content {
+  margin-bottom: 15px;
+}
+
+.list-right-footer {
+  font-size: xx-small;
+  color: var(--color-secondary-light);
+}
