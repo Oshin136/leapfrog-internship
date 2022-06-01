@@ -1,0 +1,9 @@
+Component           Estimated(mins)          Completion time(mins)
+navbar              25                        30
+color               15                        10
+tabs                20                        25
+buttons             15                        10
+form                30                        40
+list group          15                        10
+table               10                        15
+card                35                        30
