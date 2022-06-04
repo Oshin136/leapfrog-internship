@@ -2,6 +2,7 @@
   overflow: hidden;
   margin-bottom: 100px;
 }
+
 .support__image {
   float: left;
   position: relative;
@@ -50,4 +51,44 @@
 .support--btn {
   background-color: var(--primary);
   color: white;
+  padding: 12px 25px;
+}
+@media screen and (max-width: 1100px) {
+  .support__image {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .support__image {
+    float: none;
+    position: static;
+    width: 100%;
+    padding: 0;
+  }
+
+  .support__content__wrapper {
+    float: none;
+    width: 100%;
+  }
+
+  .support__content {
+    max-width: 100%;
+    position: static;
+    padding-top: 0;
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  .support__content h2 {
+    margin-bottom: 25px;
+  }
+
+  .support_para {
+    margin-bottom: 20px;
+  }
+
+  .support__container {
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
 }
