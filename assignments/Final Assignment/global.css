@@ -1,0 +1,76 @@
+@import url("./fonts/sf-pro-display/style.css");
+@import url("./fonts/svn-gilroy/style.css");
+
+:root {
+  --p: #0d2c7b;
+  --primary: #1443bd;
+  --secondary: #2a84c6;
+  --heading: #0a215f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+  /* border: 1px solid var(--secondary); */
+  background-color: var(--primary);
+  color: white;
+  padding: 8px 24px;
+}
+
+.btn--secondary {
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+  background-color: white;
+  margin-right: 16px;
+}
+
+h1 {
+  font-family: "SF Pro Display", sans-serif;
+
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+body {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: var(--heading);
+  margin-bottom: 4px;
+  font-size: 14px;
+  /* line-height: 20px; */
+}
+
+.para_blue {
+  color: var(--primary);
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

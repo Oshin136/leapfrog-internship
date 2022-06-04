@@ -1,0 +1,48 @@
+.features__heading {
+  text-align: center;
+  max-width: 534px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+  margin-top: 60px;
+}
+
+/* .col-2 {
+  float: left;
+  width: calc(100% / 2);
+}
+
+.feature {
+  overflow: hidden;
+  padding: 28px;
+}
+
+.feature__img {
+  width: 160px;
+  height: 160px;
+}
+
+.feature img {
+  float: left;
+  width: 100%;
+  height: 100%;
+} */
+
+.card {
+  float: left;
+  width: 50%;
+}
+
+.card__img {
+  float: left;
+}
+
+.card__content {
+  max-width: 308px;
+  float: left;
+  padding-top: 50px;
+}
+
+.features__content {
+  background-image: url(./images/card-images/curve-line.png);
+  background-repeat: no-repeat;
+}

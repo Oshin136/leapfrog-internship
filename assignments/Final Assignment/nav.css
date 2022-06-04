@@ -1,0 +1,41 @@
+.navbar {
+  overflow: hidden;
+  margin-top: 36px;
+  margin-bottom: 68px;
+  /* padding: 36px 108px; */
+}
+
+.navbar__logo {
+  float: left;
+}
+
+.navbar__right {
+  float: right;
+  overflow: hidden;
+}
+
+.navbar__right ul {
+  float: left;
+  overflow: hidden;
+}
+
+.navbar__right li {
+  float: left;
+  margin-right: 25px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.header__buttons {
+  float: right;
+  display: table;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn--nav {
+  border: 1px solid white;
+}

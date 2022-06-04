@@ -1,0 +1,33 @@
+.usepayme__container {
+  overflow: hidden;
+}
+
+.usepayme__content {
+  float: left;
+  max-width: 468px;
+  width: 50%;
+  margin-top: 300px;
+}
+
+.button__icon {
+  margin-right: 11px;
+  width: 14px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.button__icon img {
+  width: 14px;
+  height: 16px;
+}
+
+.usepayme__image {
+  float: right;
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.usepayme__para {
+  margin-bottom: 32px;
+}
