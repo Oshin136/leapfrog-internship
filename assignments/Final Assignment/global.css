@@ -26,7 +26,13 @@
   /* border: 1px solid var(--secondary); */
   background-color: var(--primary);
   color: white;
-  padding: 8px 24px;
+  padding: 12px 24px;
+  transition: all 300ms ease;
+  transform: scale(0.9);
+}
+
+.btn:hover {
+  transform: scale(1);
 }
 
 .btn--secondary {
@@ -34,6 +40,7 @@
   color: var(--secondary);
   background-color: white;
   margin-right: 16px;
+  transition: all 300ms ease;
 }
 
 h1 {
