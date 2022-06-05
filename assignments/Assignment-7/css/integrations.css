@@ -1,0 +1,22 @@
+.container__integrations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.integration__content {
+  max-width: 688px;
+}
+
+.integration__comment {
+  margin-bottom: 60px;
+}
+
+.integration__image {
+  margin-right: 200px;
+}
+
+.integration__btn {
+  margin-top: 50px;
+}
