@@ -52,6 +52,21 @@ h3 {
   color: var(--secondary);
 }
 
+h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: var(--secondary-dark);
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #252641;
+  margin-bottom: 15px;
+}
+
 .container {
   width: 90%;
   margin: 0;

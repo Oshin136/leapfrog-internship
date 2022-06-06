@@ -38,19 +38,49 @@
   position: relative;
 } */
 
-.skilline__image__content {
+.skilline__left {
+  position: relative;
+}
+
+.left {
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  bottom: 0;
-  left: 0;
+
+  bottom: 161px;
+  left: 152px;
+}
+
+.skilline__right {
+  position: relative;
+}
+
+.right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  bottom: 161px;
+  left: 152px;
 }
 
 .skilline__image__content p,
 .skilline__image__content a {
   color: white;
+  margin-bottom: 15px;
+}
+
+.btn--skilline--left {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.btn--skilline--right {
+  background-color: #23bdee;
 }
 
 /* .skilline__right img{
