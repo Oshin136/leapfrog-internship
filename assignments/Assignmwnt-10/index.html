@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Lane Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="score">Score: <span class="scorenumber"></span></div>
+    <div class="game animation__stop">
+      <div class="card start__card">
+        <h2 class="title">Car Lane Game</h2>
+        <div class="start__content">"a" to move left</div>
+        <div class="start__content">"d" to move right</div>
+        <a href="#" class="btn start__btn"
+          ><img src="./assets/play.png" alt="play-icon"
+        /></a>
+      </div>
+
+      <div class="player">
+        <img src="./assets/player.png" alt="player--image" />
+      </div>
+
+      <div class="card result__card hide">
+        <h2 class="title result__title">Game Over!</h2>
+        <div class="result__score">
+          Your Score:<span class="display__score"></span>
+        </div>
+        <!-- <div class="result__highscore">HighScore:300</div> -->
+        <a href="#" class="btn result__btn"
+          ><img src="./assets/replay.png"
+        /></a>
+      </div>
+    </div>
+    <script src="./scripts/constant.js"></script>
+    <script src="./scripts/function.js"></script>
+    <script src="./scripts/player.js"></script>
+    <script src="./scripts/opponent.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
